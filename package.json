@@ -1,0 +1,19 @@
+{
+  "name": "packback",
+  "version": "1.0.0",
+  "description": "api rest para o serviço de packmanager",
+  "main": "index.js",
+  "author": "Douglas Thomaz",
+  "license": "MIT",
+  "scripts":{
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
